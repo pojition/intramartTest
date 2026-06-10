@@ -1,0 +1,33 @@
+<!-- Head Tag -->
+<imart type="head">
+  <title>Hello, World (JSSP)</title>
+  <script type="text/javascript">
+    $(function() {
+      $('#button').bind('click', function() {
+        $('#helloform').submit();
+      });
+    });
+  </script>
+</imart>
+
+<!-- Title -->
+<div class="imui-title">
+  <h1>Please input a name.</h1>
+</div>
+
+<!-- Contents -->
+<div class="imui-form-container">
+  <form action="im_cookbook/109000/output" name="helloform" id="helloform" method="post">
+    <table class="imui-form">
+      <tbody>
+        <tr>
+          <th><label class="imui-required">Name</label></th>
+          <td><imart type="imuiTextbox" id="username" name="username" size="50"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="imui-operation-parts">
+      <imart type ="imuiButton" value="Submit" name="button" class="imui-medium-button" id="button" />
+    </div>
+  </form>
+</div>
