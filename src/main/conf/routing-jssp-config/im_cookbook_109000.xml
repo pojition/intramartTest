@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routing-jssp-config
+  xmlns="http://www.intra-mart.jp/router/routing-jssp-config"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.intra-mart.jp/router/routing-jssp-config routing-jssp-config.xsd ">
+
+  <authz-default mapper="welcome-all" />
+
+  <file-mapping path="/im_cookbook/109000/input"  page="/im_cookbook_109000/hello/input" />
+	<file-mapping path="/im_cookbook/109000/output" page="/im_cookbook_109000/hello/output" />
+</routing-jssp-config>
